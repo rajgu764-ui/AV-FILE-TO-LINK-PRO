@@ -15,26 +15,26 @@ def is_enabled(value, default):
 # 🤖 BOT INFO & CREDENTIALS
 # =========================================================
 SESSION = environ.get('SESSION', 'Webavbot')
-API_ID = int(environ.get('API_ID', '12000656'))
-API_HASH = environ.get('API_HASH', 'd927c13beaaf5110f2c071273')
-BOT_TOKEN = environ.get('BOT_TOKEN', '70917168:AAF8TzmnNYW721xIUUuseLU41xa5bRA')
+API_ID = int(environ.get('API_ID', '38238843'))
+API_HASH = environ.get('API_HASH', '5b7058ea5276e86c0c306af709846b03')
+BOT_TOKEN = environ.get('BOT_TOKEN', '8385766279:AAFMvkb9UNPa_mZ58P0tZY186hI5n-kpYgY')
 
 # Admin Settings
-ADMINS = [int(x) for x in environ.get('ADMINS', '5977931010').split()]
-OWNER_USERNAME = environ.get("OWNER_USERNAME", 'BOT_OWNER26')
+ADMINS = [int(x) for x in environ.get('ADMINS', '6118009201').split()]
+OWNER_USERNAME = environ.get("OWNER_USERNAME", 'ratul17779')
 
 # =========================================================
 # 🗄️ DATABASE CONNECTION
 # =========================================================
-DB_URL = environ.get('DATABASE_URI', "mongodb+srv://teshsjsg1:axxxxtz@testing.kwuyhwka.mongodb.net/?appName=testing")
+DB_URL = environ.get('DATABASE_URI', "mongodb+srv://file-to-url:file-to-url-123@cluster0.w3uex4d.mongodb.net/?appName=Cluster0")
 DB_NAME = environ.get('DATABASE_NAME', "testing")
 
 # =========================================================
 # 📢 CHANNELS & LOGS
 # =========================================================
 # Mandatory Channels
-BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-1002114619001'))
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1002114619001'))
+BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-1003813224457'))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1003973319952'))
 
 # Feature Specific Logs
 PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", '-1002114619001'))
