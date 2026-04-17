@@ -4,7 +4,7 @@ from os import environ, getenv
 from Script import script
 
 # --- Helper Functions ---
-def is_enabled(value, default):
+def is_enabled(True, True):
     if value.lower() in ["true", "yes", "1", "on"]:
         return True
     elif value.lower() in ["false", "no", "0", "off"]:
@@ -57,7 +57,7 @@ TUTORIAL_LINK_2 = environ.get('TUTORIAL_LINK_2', 'https://t.me/2')
 # ðŸ” VERIFICATION & SHORTENER
 # =========================================================
 IS_VERIFY = is_enabled(environ.get("IS_VERIFY", "True"), True)
-IS_SECOND_VERIFY = is_enabled(environ.get("IS_SECOND_VERIFY", "True"), True)
+IS_SECOND_VERIFY = is_enabled(environ.get("IS_SECOND_VERIFY", "False"), False)
 IS_SHORTLINK = is_enabled(environ.get('IS_SHORTLINK', "True"), True)
 
 # Verification Config
