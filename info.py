@@ -17,7 +17,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Webavbot')
 API_ID = int(environ.get('API_ID', '38238843'))
 API_HASH = environ.get('API_HASH', '5b7058ea5276e86c0c306af709846b03')
-BOT_TOKEN = environ.get('BOT_TOKEN', '8434561286:AAELhow4PQuupMQbUgQvvrhE9gTtgi6cP74')
+BOT_TOKEN = environ.get('BOT_TOKEN', '8737713502:AAG4aOUWxIkwmtmvUPO_SjL1B3rorsAySf0')
 
 # Admin Settings
 ADMINS = [int(x) for x in environ.get('ADMINS', '6118009201').split()]
@@ -48,8 +48,8 @@ AUTH_CHANNEL = [int(x) for x in auth_channel_str.split()] if auth_channel_str el
 # =========================================================
 # ðŸ”— LINKS & URLS
 # =========================================================
-CHANNEL = environ.get('CHANNEL', 'https://t.me/AV_BOTz_UPDATE')
-SUPPORT = environ.get('SUPPORT', 'https://t.me/AV_SUPPORT_GROUP')
+CHANNEL = environ.get('CHANNEL', 'https://t.me/InfinityCloudUpdates')
+SUPPORT = environ.get('SUPPORT', 'https://t.me/InfinityCloudSupportGroup')
 TUTORIAL_LINK_1 = environ.get('TUTORIAL_LINK_1', 'https://t.me/1')
 TUTORIAL_LINK_2 = environ.get('TUTORIAL_LINK_2', 'https://t.me/2')
 
