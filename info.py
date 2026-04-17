@@ -4,7 +4,7 @@ from os import environ, getenv
 from Script import script
 
 # --- Helper Functions ---
-def is_enabled(True, True):
+def is_enabled(value, default):
     if value.lower() in ["true", "yes", "1", "on"]:
         return True
     elif value.lower() in ["false", "no", "0", "off"]:
