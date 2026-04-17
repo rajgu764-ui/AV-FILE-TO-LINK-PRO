@@ -115,7 +115,7 @@ else:
 PORT = int(getenv('PORT', '2626'))
 NO_PORT = is_enabled(getenv("NO_PORT", "False"), False)
 HAS_SSL = is_enabled(getenv("HAS_SSL", "False"), False)
-BIND_ADDRESS = getenv("WEB_SERVER_BIND_ADDRESS", "127.0.0.1")
+BIND_ADDRESS = getenv("WEB_SERVER_BIND_ADDRESS", "web-production-01f5b.up.railway.app")
 
 # URL Generation
 # Use provided URL from env, or generate based on FQDN/IP
