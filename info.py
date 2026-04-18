@@ -112,10 +112,10 @@ else:
     ON_HEROKU = False
     APP_NAME = None
 
-PORT = int(getenv('PORT', '2626'))
-NO_PORT = is_enabled(getenv("NO_PORT", "False"), False)
-HAS_SSL = is_enabled(getenv("HAS_SSL", "False"), False)
-BIND_ADDRESS = getenv("WEB_SERVER_BIND_ADDRESS", "127.0.0.1")
+PORT = int(getenv('PORT', '8080'))
+NO_PORT = is_enabled(getenv("NO_PORT", "True"), True)
+HAS_SSL = is_enabled(getenv("HAS_SSL", "True"), True)
+BIND_ADDRESS = getenv("WEB_SERVER_BIND_ADDRESS", "0.0.0.0")
 
 # URL Generation
 # Use provided URL from env, or generate based on FQDN/IP
@@ -130,5 +130,5 @@ else:
 
 # Default fallback if nothing works (Matches your provided koyeb link)
 if not URL or URL == "/":
-    URL = "https://acceptable-recreation-production-be84.up.railway.app/"
+    URL = "https://web-production-6ab22.up.railway.app/"
     
