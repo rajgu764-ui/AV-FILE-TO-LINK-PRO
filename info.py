@@ -130,5 +130,5 @@ else:
 
 # Default fallback if nothing works (Matches your provided koyeb link)
 if not URL or URL == "/":
-    URL = "https://web-production-6ab22.up.railway.app/"
+    URL = "https://av-file-to-link-pro-production.up.railway.app/"
     
