@@ -164,11 +164,11 @@ class script(object):
     ABOUT_TXT = """<b>╔══❰ {} ❱═════❍
 ║╭━━━━━━━━━━━━━━━━━━➣
 ║┣⪼🤖 ᴍʏ ɴᴀᴍᴇ : {}
-║┣⪼👦 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/AV_OWNER_BOT'>ᴀᴠ ᴄʜᴀᴛ ᴏᴡɴᴇʀ</a>
-║┣⪼❣️ ᴜᴘᴅᴀᴛᴇ : <a href=https://t.me/AV_BOTz_UPDATE>ᴀᴠ ʙᴏᴛᴢ</a>
+║┣⪼👦 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/ratul17779'>Ratul</a>
+║┣⪼❣️ ᴜᴘᴅᴀᴛᴇ : <a href=https://t.me/InfinityCloudUpdates>Infinity Cloud Updates</a>
 ║┣⪼⏲️ ʙᴏᴛ ᴜᴘᴛɪᴍᴇ :- {}
-║┣⪼📡 ʜᴏsᴛᴇᴅ ᴏɴ : ᴋᴏʏᴇʙ 
-║┣⪼🗣️ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ 
+║┣⪼📡 ʜᴏsᴛᴇᴅ ᴏɴ : YPS
+║┣⪼🗣️ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ
 ║┣⪼📚 ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ
 ║┣⪼🗒️ ᴠᴇʀsɪᴏɴ : {} [sᴛᴀʙʟᴇ]
 ║╰━━━━━━━━━━━━━━━➣
@@ -248,7 +248,7 @@ class script(object):
 💸 <b>ᴜᴘɪ ɪᴅ:</b> <code>.......</code> (ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ)
 
 📸 <i>sᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ sᴄʀᴇᴇɴsʜᴏᴛ ᴛᴏ ᴀᴅᴍɪɴ ꜰᴏʀ ᴀᴄᴛɪᴠᴀᴛɪᴏɴ.</i>
-🏷️ <a href='https://t.me/AV_PREMIUM_PROOF'>ᴄʜᴇᴄᴋ ᴘʀᴇᴍɪᴜᴍ ᴘʀᴏᴏꜰs</a>"""
+🏷️ <a href='https://t.me/ratul17779'>🧾ᴘʀᴇᴍɪᴜᴍ ᴘʀᴏᴏꜰ</a>"""
     
     PREMIUM_TEXT = """<b>👑 <u>ᴘʀᴇᴍɪᴜᴍ sᴛᴀᴛᴜs</u></b>
 
