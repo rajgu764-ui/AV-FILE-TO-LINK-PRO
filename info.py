@@ -39,7 +39,7 @@ LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1003949564466'))
 # Feature Specific Logs
 PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", '-1003701301311'))
 VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1003966392215'))
-SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1003946294006"))
+SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1003941765762"))
 
 # Auth Channels (Safe Parsing)
 auth_channel_str = environ.get("AUTH_CHANNEL", "-1003790425512")
