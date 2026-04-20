@@ -48,8 +48,8 @@ AUTH_CHANNEL = [int(x) for x in auth_channel_str.split()] if auth_channel_str el
 # =========================================================
 # ðŸ”— LINKS & URLS
 # =========================================================
-CHANNEL = environ.get('CHANNEL', 'https://t.me/InfinityLinkerUpdates/')
-SUPPORT = environ.get('SUPPORT', 'https://t.me/InfinityLinkerSupport/')
+CHANNEL = environ.get('CHANNEL', 'https://t.me/I_LinkerUpdates/')
+SUPPORT = environ.get('SUPPORT', 'https://t.me/I_LinkerChats/')
 TUTORIAL_LINK_1 = environ.get('TUTORIAL_LINK_1', 'https://t.me/1')
 TUTORIAL_LINK_2 = environ.get('TUTORIAL_LINK_2', 'https://t.me/2')
 
