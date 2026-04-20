@@ -20,8 +20,8 @@ API_HASH = environ.get('API_HASH', 'Enter Your Api Hash')
 BOT_TOKEN = environ.get('BOT_TOKEN', 'Enter Your Bot Token')
 
 # Admin Settings
-ADMINS = [int(x) for x in environ.get('ADMINS', '6118009201').split()]
-OWNER_USERNAME = environ.get("OWNER_USERNAME", 'ratul17779')
+ADMINS = [int(x) for x in environ.get('ADMINS', '8747490676').split()]
+OWNER_USERNAME = environ.get("OWNER_USERNAME", 'ratul1277')
 
 # =========================================================
 # ðŸ—„ï¸ DATABASE CONNECTION
