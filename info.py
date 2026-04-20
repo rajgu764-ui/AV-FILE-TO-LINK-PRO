@@ -42,7 +42,7 @@ VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1003966392215'))
 SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1003946294006"))
 
 # Auth Channels (Safe Parsing)
-auth_channel_str = environ.get("AUTH_CHANNEL", "-1003748603064")
+auth_channel_str = environ.get("AUTH_CHANNEL", "-1003790425512")
 AUTH_CHANNEL = [int(x) for x in auth_channel_str.split()] if auth_channel_str else []
 
 # =========================================================
