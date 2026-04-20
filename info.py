@@ -15,9 +15,9 @@ def is_enabled(value, default):
 # ðŸ¤– BOT INFO & CREDENTIALS
 # =========================================================
 SESSION = environ.get('SESSION', 'Webavbot')
-API_ID = int(environ.get('API_ID', '38238843'))
-API_HASH = environ.get('API_HASH', '5b7058ea5276e86c0c306af709846b03')
-BOT_TOKEN = environ.get('BOT_TOKEN', '8790175836:AAFTHUAgH6K-gPssCfe0ByV2Ewh9hrDX6fQ')
+API_ID = int(environ.get('API_ID', 'Enter Your Api Id'))
+API_HASH = environ.get('API_HASH', 'Enter Your Api Hash')
+BOT_TOKEN = environ.get('BOT_TOKEN', 'Enter Your Bot Token')
 
 # Admin Settings
 ADMINS = [int(x) for x in environ.get('ADMINS', '6118009201').split()]
