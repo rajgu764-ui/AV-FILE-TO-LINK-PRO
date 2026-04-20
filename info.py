@@ -33,16 +33,16 @@ DB_NAME = environ.get('DATABASE_NAME', "testing")
 # ðŸ“¢ CHANNELS & LOGS
 # =========================================================
 # Mandatory Channels
-BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-1003813224457'))
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1003973319952'))
+BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-1003965015923'))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1003949564466'))
 
 # Feature Specific Logs
-PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", '-1003913039916'))
-VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1003726083610'))
-SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1003821497967"))
+PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", '-1003701301311'))
+VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1003966392215'))
+SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1003946294006"))
 
 # Auth Channels (Safe Parsing)
-auth_channel_str = environ.get("AUTH_CHANNEL", "-1003722543118")
+auth_channel_str = environ.get("AUTH_CHANNEL", "-1003748603064")
 AUTH_CHANNEL = [int(x) for x in auth_channel_str.split()] if auth_channel_str else []
 
 # =========================================================
