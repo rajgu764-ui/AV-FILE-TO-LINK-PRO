@@ -115,7 +115,7 @@ else:
 PORT = int(getenv('PORT', '8080'))
 NO_PORT = is_enabled(getenv("NO_PORT", "True"), True)
 HAS_SSL = is_enabled(getenv("HAS_SSL", "True"), True)
-BIND_ADDRESS = getenv("WEB_SERVER_BIND_ADDRESS", "av-file-to-link-pro-production.up.railway.app")
+BIND_ADDRESS = getenv("WEB_SERVER_BIND_ADDRESS", "127.0.0.1")
 
 # URL Generation
 # Use provided URL from env, or generate based on FQDN/IP
@@ -130,5 +130,5 @@ else:
 
 # Default fallback if nothing works (Matches your provided koyeb link)
 if not URL or URL == "/":
-    URL = "https://av-file-to-link-pro-production.up.railway.app/"
+    URL = "https://web-production-525b6.up.railway.app/"
     
