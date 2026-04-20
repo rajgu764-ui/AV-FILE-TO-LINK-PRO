@@ -102,7 +102,7 @@ FILE_CAPTION = environ.get('FILE_CAPTION', script.CAPTION)
 # =========================================================
 WORKERS = int(getenv('WORKERS', '4'))
 MULTI_CLIENT = False
-name = str(environ.get('name', 'avbotz'))
+name = str(environ.get('name', 'infinity-linker'))
 
 # Heroku & Port Config
 if 'DYNO' in environ:
