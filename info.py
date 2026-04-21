@@ -57,17 +57,17 @@ TUTORIAL_LINK_2 = environ.get('TUTORIAL_LINK_2', 'https://t.me/2')
 # ðŸ” VERIFICATION & SHORTENER
 # =========================================================
 IS_VERIFY = is_enabled(environ.get("IS_VERIFY", "True"), True)
-IS_SECOND_VERIFY = is_enabled(environ.get("IS_SECOND_VERIFY", "False"), False)
+IS_SECOND_VERIFY = is_enabled(environ.get("IS_SECOND_VERIFY", "True"), True)
 IS_SHORTLINK = is_enabled(environ.get('IS_SHORTLINK', "True"), True)
 
 # Verification Config
 VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 60)) # In Minutes/Hours based on logic
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'mdiskshortner.link')
-SHORTLINK_API = environ.get('SHORTLINK_API', '52dc53b84036e2b3d10179e70bf4606b4a25ff76')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'yourdestinationlink.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'fe5e689e49f014fbfc697849512a604564006c39')
 
 # Second Verification Config
-SHORTLINK_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "mdiskshortner.link")
-SHORTLINK_API2 = environ.get("SHORTENER_API2", "96a3c0e8ae1b1abd429906762e38a40d3f2ec56c")
+SHORTLINK_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "yourdestinationlink.com")
+SHORTLINK_API2 = environ.get("SHORTENER_API2", "fe5e689e49f014fbfc697849512a604564006c39")
 
 # =========================================================
 # âš™ï¸ SETTINGS & LIMITS
