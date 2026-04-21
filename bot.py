@@ -66,7 +66,7 @@ files = glob.glob(ppath)
 # ===============================
 async def Webav_start():
     print("\n")
-    print("Credit - Telegram @BOT_OWNER26")
+    print("Credit - Telegram @ratul1277")
 
     try:
         # 1. Initialize additional clients
@@ -113,7 +113,7 @@ async def Webav_start():
         )
 
         # 6. Date / Time
-        tz = pytz.timezone("Asia/Kolkata")
+        tz = pytz.timezone("Asia/Dhaka")
         today = date.today()
         now = datetime.now(tz)
         time = now.strftime("%H:%M:%S %p")
