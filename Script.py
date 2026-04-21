@@ -164,8 +164,8 @@ class script(object):
     ABOUT_TXT = """<b>╔══❰ {} ❱═════❍
 ║╭━━━━━━━━━━━━━━━━━━➣
 ║┣⪼🤖 ᴍʏ ɴᴀᴍᴇ : {}
-║┣⪼👦 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/ratul17779'>Ratul</a>
-║┣⪼❣️ ᴜᴘᴅᴀᴛᴇ : <a href=https://t.me/InfinityCloudUpdates>Infinity Cloud Updates</a>
+║┣⪼👦 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/ratul1277'>Ratul</a>
+║┣⪼❣️ ᴜᴘᴅᴀᴛᴇ : <a href=https://I_LinkerUpdates>I-Linker Updates!</a>
 ║┣⪼⏲️ ʙᴏᴛ ᴜᴘᴛɪᴍᴇ :- {}
 ║┣⪼📡 ʜᴏsᴛᴇᴅ ᴏɴ : YPS
 ║┣⪼🗣️ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ
